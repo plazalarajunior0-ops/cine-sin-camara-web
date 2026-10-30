@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formato Reel · Cine sin Cámara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="barra">
+	<div class="envoltura">
+		<a class="logo" href="index.html"><span class="rec"></span>CINE SIN CÁMARA</a>
+		<a class="boton boton-linea" href="index.html#niveles">Temario</a>
+	</div>
+</header>
+
+<main class="envoltura">
+	<div class="leccion-cabeza">
+		<div class="claqueta">
+			<div class="franjas"></div>
+			<div class="campos">
+				<div class="campo"><span>NIVEL</span><strong>Toma 1</strong></div>
+				<div class="campo"><span>ESCENA</span><strong>4 de 5</strong></div>
+				<div class="campo"><span>DURACIÓN</span><strong>15 min</strong></div>
+				<div class="campo"><span>DIRECTOR</span><strong>El CEO</strong></div>
+			</div>
+		</div>
+		<h1>Formato Reel</h1>
+		<p>Ya sabes generar clips y dirigir la cámara. Ahora los conviertes en algo que la gente vea hasta el final: formato vertical, un gancho en los primeros 2 segundos, sonido que acompañe y una revisión antes de publicar. Al terminar tienes tu primer Reel hecho con IA.</p>
+	</div>
+
+	<div class="leccion">
+		<article>
+			<div class="dice">
+				<img src="img/fredy-selfie.png" alt="El CEO">
+				<p>«En el celular nadie te debe nada. Tienes dos segundos para ganarte el resto del video.»</p>
+			</div>
+
+			<h2 id="vertical">Vertical desde el principio</h2>
+			<p>Reels, TikTok y Shorts se ven en formato <strong>9:16</strong>: vertical, como la pantalla del celular. Elige ese formato <strong>antes de generar</strong>, tanto en la imagen como en el video. Si generas horizontal (16:9) y después recortas, pierdes los lados y muchas veces se corta justo lo importante.</p>
+			<p>Piensa también en lo que tapa la aplicación: abajo va el texto de la publicación y a la derecha los botones. Deja la cara, el producto y tus textos <strong>en el centro de la pantalla</strong>.</p>
+
+			<h2 id="duracion">Cuánto debe durar</h2>
+			<p>Cada clip de IA dura normalmente entre 5 y 10 segundos, y mientras más corto, más estable sale. Para tu primer Reel, apunta a <strong>15 a 20 segundos armados con 3 o 4 clips</strong>. Es suficiente para contar algo y es manejable de revisar.</p>
+			<p>Mejor corto y completo que largo y con relleno. Si un segundo no aporta, córtalo.</p>
+
+			<h2 id="estructura">La estructura de un Reel</h2>
+			<p>Un Reel corto también es una historia. Este orden te sirve para casi cualquier tema:</p>
+			<div class="formula">
+				<div><b>01</b><span>Gancho</span><small>0 a 2 s. Algo que haga detener el dedo.</small></div>
+				<div><b>02</b><span>Contexto</span><small>2 a 6 s. Dónde estamos y quién es.</small></div>
+				<div><b>03</b><span>Desarrollo</span><small>6 a 14 s. Lo que pasa, plano a plano.</small></div>
+				<div><b>04</b><span>Momento fuerte</span><small>El detalle o la sorpresa que se recuerda.</small></div>
+				<div><b>05</b><span>Cierre</span><small>Una imagen final clara y, si quieres, una invitación.</small></div>
+			</div>
+
+			<h2 id="gancho">El gancho en 2 segundos</h2>
+			<p>El primer cuadro tiene que tener algo pasando. Nada de logos, fundidos lentos ni paisajes quietos al inicio. Algunas ideas que funcionan con IA: <strong>movimiento fuerte desde el primer cuadro, un detalle muy de cerca, algo que no debería estar ahí, o un antes y después</strong>.</p>
+			<div class="comparar">
+				<div class="toma mala"><span class="etiqueta"><b>✕</b> Arranque lento</span><p>Se abre con el logo de la panadería, luego un plano general de la fachada quieta durante 3 segundos.</p></div>
+				<div class="toma buena"><span class="etiqueta"><b>✓</b> Gancho</span><p>Primer cuadro: detalle de un pan partiéndose en dos, sale vapor y miga. La cámara se acerca rápido. Se oye el crujido.</p></div>
+			</div>
+			<p>Para generar tu clip de gancho, usa esta plantilla:</p>
+			<div class="prompt"><button class="copiar" onclick="copiar(this)">COPIAR</button>Formato vertical 9:16. Desde el primer cuadro, <em>[acción fuerte]</em> ________. Plano detalle de ________, la cámara se acerca rápido. Luz ________. Se escucha ________.</div>
+
+			<h2 id="sonido">Música y sonido básico</h2>
+			<p>El sonido hace la mitad del trabajo. Un video sin sonido se siente vacío aunque la imagen sea buena.</p>
+			<ul class="lista">
+				<li><span><strong>Sonido del clip:</strong> algunos modelos de video ya generan sonido junto con la imagen. Si el tuyo no lo hace, lo agregas en la edición.</span></li>
+				<li><span><strong>Efectos:</strong> un golpe, un crujido o un «whoosh» en el momento justo hacen que el corte se sienta profesional.</span></li>
+				<li><span><strong>Música:</strong> usa la biblioteca de audio de la aplicación o música libre de derechos. Una canción famosa sin permiso puede silenciar tu video, y en un anuncio pagado no la uses.</span></li>
+				<li><span><strong>Corta al ritmo:</strong> cambia de clip cuando la música marca un golpe. El ojo lo siente aunque no lo note.</span></li>
+				<li><span><strong>Volumen:</strong> si hay voz, la música va por debajo.</span></li>
+			</ul>
+
+			<h2 id="armar">Armarlo en el editor</h2>
+			<p>En un editor como CapCut (gratis en el celular y en el computador) el proceso básico es siempre el mismo:</p>
+			<ul class="lista">
+				<li><span>Crea un proyecto vertical 9:16 e importa tus clips en orden.</span></li>
+				<li><span>Corta el principio y el final de cada clip: casi siempre hay cuadros muertos o raros.</span></li>
+				<li><span>Pon el gancho de primero, aunque se haya generado de último.</span></li>
+				<li><span>Agrega textos grandes y cortos en el centro, máximo una idea por pantalla.</span></li>
+				<li><span>Agrega música y efectos, y revisa el volumen.</span></li>
+				<li><span>Exporta en 1080 × 1920 píxeles (la medida estándar de un video vertical).</span></li>
+			</ul>
+			<div class="dice">
+				<img src="img/fredy-chasquea.png" alt="El CEO">
+				<p>«La IA graba. Pero el video se hace en la edición. Ahí es donde decides qué se queda.»</p>
+			</div>
+
+			<div class="ejercicio">
+				<span class="etiqueta"><b>●</b> Proyecto final de la Toma 1</span>
+				<h3>Tu primer Reel terminado</h3>
+				<p>Arma un Reel de 15 a 20 segundos con 3 o 4 clips: el plano que dirigiste en la Escena 2, el que hiciste con dos cámaras en la Escena 3 y un clip nuevo de gancho hecho con la plantilla de arriba. Ponle música o sonido, textos cortos y expórtalo vertical. Todavía no lo publiques: en la Escena 5 lo revisas con la lista de errores antes de mostrarlo.</p>
+			</div>
+
+			<h2 id="revisa">Antes de publicar</h2>
+			<ul class="lista">
+				<li><span>¿Está en 9:16 y nada importante queda tapado por los botones o el texto de abajo?</span></li>
+				<li><span>¿En los primeros 2 segundos ya pasa algo?</span></li>
+				<li><span>¿Cortaste los cuadros muertos al inicio y al final de cada clip?</span></li>
+				<li><span>¿Tiene sonido y la música es libre de derechos o de la biblioteca de la aplicación?</span></li>
+				<li><span>¿Lo viste completo en el celular, con sonido y sin sonido?</span></li>
+				<li><span>¿Los textos se leen sin pausar el video?</span></li>
+			</ul>
+
+			<div class="navegar">
+				<a class="boton boton-linea" href="t1-e3-habla-como-director.html">◀ Escena 3</a>
+				<a class="boton boton-rosa" href="t1-e5-errores.html">Escena 5: Errores y cómo arreglarlos ▶</a>
+			</div>
+		</article>
+
+		<aside class="indice">
+			<span class="etiqueta">En esta escena</span>
+			<ol>
+				<li><a href="#vertical" class="activa">Vertical desde el principio</a></li>
+				<li><a href="#duracion">Cuánto debe durar</a></li>
+				<li><a href="#estructura">La estructura</a></li>
+				<li><a href="#gancho">El gancho</a></li>
+				<li><a href="#sonido">Música y sonido</a></li>
+				<li><a href="#armar">Armarlo en el editor</a></li>
+				<li><a href="#revisa">Antes de publicar</a></li>
+			</ol>
+		</aside>
+	</div>
+</main>
+
+<footer class="aviso envoltura">Cine sin Cámara · Fredy Plaza Lara · @fredy.plazalara</footer>
+
+<script>
+function copiar(b) {
+	const t = b.parentElement.innerText.replace(/^COPIAR\s*/, '').replace(/^¡COPIADO!\s*/, '');
+	const listo = () => { b.textContent = '¡COPIADO!'; setTimeout(() => b.textContent = 'COPIAR', 1600); };
+	const aMano = () => { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); listo(); } catch (e) { b.textContent = 'MANTÉN PRESIONADO PARA COPIAR'; } a.remove(); };
+	if (navigator.clipboard) navigator.clipboard.writeText(t).then(listo, aMano); else aMano();
+}
+const enlaces = [...document.querySelectorAll('.indice a')];
+const ob = new IntersectionObserver((es) => es.forEach((e) => {
+	if (e.isIntersecting) enlaces.forEach((a) => a.classList.toggle('activa', a.getAttribute('href') === '#' + e.target.id));
+}), {rootMargin: '-30% 0px -60% 0px'});
+document.querySelectorAll('article h2[id]').forEach((h) => ob.observe(h));
+</script>
+</body>
+</html>

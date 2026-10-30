@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://plazalarajunior0-ops.github.io/cine-sin-camara-web/sitemap.xml

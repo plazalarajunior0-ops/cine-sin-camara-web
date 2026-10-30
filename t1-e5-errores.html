@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Errores y cómo arreglarlos · Cine sin Cámara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="barra">
+	<div class="envoltura">
+		<a class="logo" href="index.html"><span class="rec"></span>CINE SIN CÁMARA</a>
+		<a class="boton boton-linea" href="index.html#niveles">Temario</a>
+	</div>
+</header>
+
+<main class="envoltura">
+	<div class="leccion-cabeza">
+		<div class="claqueta">
+			<div class="franjas"></div>
+			<div class="campos">
+				<div class="campo"><span>NIVEL</span><strong>Toma 1</strong></div>
+				<div class="campo"><span>ESCENA</span><strong>5 de 5</strong></div>
+				<div class="campo"><span>DURACIÓN</span><strong>12 min</strong></div>
+				<div class="campo"><span>DIRECTOR</span><strong>El CEO</strong></div>
+			</div>
+		</div>
+		<h1>Errores y cómo arreglarlos</h1>
+		<p>Manos con seis dedos, caras que cambian a mitad del clip, imágenes que tiemblan. Le pasa a todo el que hace video con IA. La diferencia está en saber detectarlo, entender por qué pasa y elegir el arreglo más barato. Hoy revisas tu primer Reel como lo haría un profesional.</p>
+	</div>
+
+	<div class="leccion">
+		<article>
+			<div class="dice">
+				<img src="img/fredy-confundido.png" alt="El CEO">
+				<p>«¿Seis dedos? Tranquilo. En este set a nadie lo echan por un error. Lo echan por no revisarlo.»</p>
+			</div>
+
+			<h2 id="por-que">Por qué pasan los errores</h2>
+			<p>Recuerda la Escena 1: la IA inventa el clip completo y le cuesta mantener los detalles pequeños iguales de un cuadro a otro. Las cosas grandes y simples, como una pared o el cielo, las recuerda bien. <strong>Las cosas pequeñas y complicadas, como los dedos, los ojos o un texto, se le van corriendo.</strong></p>
+			<p>Por eso casi todos los arreglos van en la misma dirección: hacerle el trabajo más fácil. Clips más cortos, menos cosas pasando a la vez y descripciones más precisas.</p>
+
+			<h2 id="manos">Manos raras</h2>
+			<p>Dedos de más, dedos que se funden o manos que atraviesan objetos. Es el error más común.</p>
+			<ul class="lista">
+				<li><span><strong>Si las manos no importan, sácalas del cuadro:</strong> un plano más cerrado a la cara o manos en los bolsillos.</span></li>
+				<li><span><strong>Una sola acción con las manos, y simple:</strong> sostener una taza sale mejor que amarrar unos cordones.</span></li>
+				<li><span><strong>Di dónde está el contacto:</strong> qué dedos tocan qué, y cómo empieza y termina el gesto.</span></li>
+				<li><span><strong>Parte de una imagen donde las manos ya estén bien:</strong> el video arranca desde ahí y tiene menos que inventar.</span></li>
+			</ul>
+			<div class="comparar">
+				<div class="toma mala"><span class="etiqueta"><b>✕</b> Invita al error</span><p>La vendedora dobla rápido varias camisas, las acomoda y saluda con las manos a los clientes.</p></div>
+				<div class="toma buena"><span class="etiqueta"><b>✓</b> Se lo pone fácil</span><p>La vendedora sostiene una camisa doblada con las dos manos, los pulgares encima. La levanta despacio hacia la cámara y la deja quieta a la altura del pecho.</p></div>
+			</div>
+
+			<h2 id="caras">Caras que cambian</h2>
+			<p>La persona empieza siendo una y termina pareciéndose a otra. Pasa más en clips largos, con giros de cabeza bruscos o con ángulos extremos.</p>
+			<ul class="lista">
+				<li><span><strong>Empieza desde una imagen de la cara,</strong> no solo desde texto.</span></li>
+				<li><span><strong>Clips cortos:</strong> 5 segundos se sostienen mejor que 10.</span></li>
+				<li><span><strong>Evita los giros completos:</strong> que voltee un poco, no que dé la vuelta.</span></li>
+				<li><span><strong>Describe a la persona con las mismas palabras exactas</strong> en todos los prompts.</span></li>
+			</ul>
+			<p>Para que un personaje sea el mismo en toda una historia hay técnicas más avanzadas, como entrenar un personaje con tus fotos. Eso lo verás en El Rodaje.</p>
+
+			<h2 id="parpadeo">Parpadeo y temblor</h2>
+			<p>La imagen titila, la luz sube y baja sola o las texturas «hierven». Para reducirlo:</p>
+			<ul class="lista">
+				<li><span><strong>Una sola fuente de luz clara,</strong> con su dirección. Varias luces de colores confunden al modelo.</span></li>
+				<li><span><strong>Evita patrones finos:</strong> rayas delgadas, rejillas o letras pequeñas tiemblan con facilidad.</span></li>
+				<li><span><strong>Movimientos de cámara suaves y lentos</strong> en vez de rápidos.</span></li>
+				<li><span><strong>Recorta en la edición</strong> los cuadros donde se nota; a veces el problema es solo el último segundo.</span></li>
+			</ul>
+
+			<h2 id="decidir">¿Regenerar, cambiar el prompt o recortar?</h2>
+			<p>Esta es la decisión que más créditos te ahorra. Ve en este orden, del arreglo más barato al más caro:</p>
+			<div class="formula">
+				<div><b>01</b><span>Recorta</span><small>Si el error está al inicio o al final, quítalo en el editor. Gratis.</small></div>
+				<div><b>02</b><span>Regenera</span><small>Si la idea salió bien y el error parece de mala suerte, repite el mismo prompt.</small></div>
+				<div><b>03</b><span>Cambia una cosa</span><small>Si el mismo error sale dos veces, no es suerte: ajusta una pieza del prompt.</small></div>
+				<div><b>04</b><span>Simplifica</span><small>Si sigue fallando, quita acciones, personas o movimiento.</small></div>
+				<div><b>05</b><span>Rediseña</span><small>Si nada funciona, cambia el plano: muestra la idea desde otro ángulo.</small></div>
+			</div>
+			<p>La regla: <strong>máximo dos intentos iguales.</strong> Si el mismo error aparece dos veces, repetir es botar créditos.</p>
+
+			<div class="ejercicio">
+				<span class="etiqueta"><b>●</b> Tu tarea</span>
+				<h3>Revisa tu Reel como un profesional</h3>
+				<p>Toma el Reel que armaste en la Escena 4 y míralo clip por clip con la lista de abajo. Encuentra por lo menos un error y arréglalo con la opción más barata de las cinco de arriba. Cuando pase la revisión completa, está listo: publícalo si quieres, o guárdalo como la primera pieza de tu portafolio.</p>
+			</div>
+
+			<h2 id="revisa">Antes de entregar</h2>
+			<ul class="lista">
+				<li><span>¿Miraste cada clip a velocidad normal y después cuadro por cuadro en las partes con manos y caras?</span></li>
+				<li><span>¿Las manos tienen cinco dedos y no atraviesan nada?</span></li>
+				<li><span>¿La persona es la misma del principio al final de cada clip y entre clips?</span></li>
+				<li><span>¿No hay parpadeo, luces que saltan ni texturas que se mueven solas?</span></li>
+				<li><span>¿No aparecen letras deformes, logos de marcas reales ni caras de personas reales sin permiso?</span></li>
+				<li><span>¿Los textos que pusiste en la edición están bien escritos, con tildes?</span></li>
+				<li><span>¿Lo viste completo en el celular, con sonido, de principio a fin?</span></li>
+			</ul>
+
+			<h2 id="corte">¡Corte! Terminaste la Toma&nbsp;1</h2>
+			<p>Hace cinco escenas no sabías qué pasaba al darle «generar». Hoy escribes prompts que dirigen, hablas el idioma de la cámara, armas un Reel vertical con gancho y lo revisas antes de mostrarlo. Eso ya es dirigir.</p>
+			<div class="dice">
+				<img src="img/fredy-celebra.png" alt="El CEO">
+				<p>«¡Corte y se queda! Ese Reel es tuyo. Guárdalo: es el primer cuadro de tu carrera como director.»</p>
+			</div>
+			<p>Ya hiciste un Reel. Ahora imagina contar una historia completa: el mismo personaje en cada plano, luz de película y sonido que se siente. Eso es <strong>El Rodaje</strong>. Y en el <strong>Corte Final</strong> lo conviertes en comerciales que puedes cobrar.</p>
+			<ul class="lista">
+				<li><span>Tu primer corto de 30 a 60 segundos, con un personaje que no cambia de cara.</span></li>
+				<li><span>Tu primer comercial, con varias versiones del gancho para probar cuál funciona.</span></li>
+				<li><span>Tu primera cotización en pesos y dólares, lista para mandar a un cliente.</span></li>
+			</ul>
+			<p><strong>Mándame tu Reel por DM a @fredy.plazalara</strong>: quiero verlo. Y si quieres seguir, el Pase de Director (El Rodaje + Corte Final) tiene precio especial durante el lanzamiento.</p>
+
+			<div class="navegar">
+				<a class="boton boton-linea" href="t1-e4-formato-reel.html">◀ Escena 4</a>
+				<a class="boton boton-rosa" href="index.html#pase">Quiero el Pase de Director ▶</a>
+			</div>
+		</article>
+
+		<aside class="indice">
+			<span class="etiqueta">En esta escena</span>
+			<ol>
+				<li><a href="#por-que" class="activa">Por qué pasan</a></li>
+				<li><a href="#manos">Manos raras</a></li>
+				<li><a href="#caras">Caras que cambian</a></li>
+				<li><a href="#parpadeo">Parpadeo y temblor</a></li>
+				<li><a href="#decidir">Regenerar o cambiar</a></li>
+				<li><a href="#revisa">Antes de entregar</a></li>
+				<li><a href="#corte">¡Corte!</a></li>
+			</ol>
+		</aside>
+	</div>
+</main>
+
+<footer class="aviso envoltura">Cine sin Cámara · Fredy Plaza Lara · @fredy.plazalara</footer>
+
+<script>
+function copiar(b) {
+	const t = b.parentElement.innerText.replace(/^COPIAR\s*/, '').replace(/^¡COPIADO!\s*/, '');
+	const listo = () => { b.textContent = '¡COPIADO!'; setTimeout(() => b.textContent = 'COPIAR', 1600); };
+	const aMano = () => { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); listo(); } catch (e) { b.textContent = 'MANTÉN PRESIONADO PARA COPIAR'; } a.remove(); };
+	if (navigator.clipboard) navigator.clipboard.writeText(t).then(listo, aMano); else aMano();
+}
+const enlaces = [...document.querySelectorAll('.indice a')];
+const ob = new IntersectionObserver((es) => es.forEach((e) => {
+	if (e.isIntersecting) enlaces.forEach((a) => a.classList.toggle('activa', a.getAttribute('href') === '#' + e.target.id));
+}), {rootMargin: '-30% 0px -60% 0px'});
+document.querySelectorAll('article h2[id]').forEach((h) => ob.observe(h));
+</script>
+</body>
+</html>

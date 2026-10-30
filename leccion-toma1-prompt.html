@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escribe un prompt de cine · Cine sin Cámara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="barra">
+	<div class="envoltura">
+		<a class="logo" href="index.html"><span class="rec"></span>CINE SIN CÁMARA</a>
+		<a class="boton boton-linea" href="index.html#niveles">Temario</a>
+	</div>
+</header>
+
+<main class="envoltura">
+	<div class="leccion-cabeza">
+		<div class="claqueta">
+			<div class="franjas"></div>
+			<div class="campos">
+				<div class="campo"><span>NIVEL</span><strong>Toma 1</strong></div>
+				<div class="campo"><span>ESCENA</span><strong>2 de 5</strong></div>
+				<div class="campo"><span>DURACIÓN</span><strong>12 min</strong></div>
+				<div class="campo"><span>DIRECTOR</span><strong>El CEO</strong></div>
+			</div>
+		</div>
+		<h1>Escribe un prompt de cine</h1>
+		<p>La diferencia entre un video que parece IA barata y uno que parece película casi nunca está en la herramienta. Está en cómo le hablas. Hoy aprendes la fórmula.</p>
+	</div>
+
+	<div class="leccion">
+		<article>
+			<div class="dice">
+				<img src="img/fredy-saluda.png" alt="El CEO">
+				<p>«Escena 2, toma 1… ¡acción! Hoy dejas de pedirle cosas a la IA y empiezas a dirigirla.»</p>
+			</div>
+
+			<h2 id="por-que">Por qué tus videos se ven «de IA»</h2>
+			<p>Cuando escribes <strong>«un hombre caminando en la ciudad, cinematográfico»</strong>, la IA tiene que adivinar casi todo: quién es, cómo camina, desde dónde lo miramos, qué luz hay. Y cuando adivina, elige lo más promedio. Por eso salen caras de plástico, movimientos raros y ese brillo que todo el mundo reconoce.</p>
+			<p>Un director nunca dice «hazlo bonito». Dice exactamente qué se ve. Eso es lo que vas a hacer tú.</p>
+
+			<h2 id="formula">La fórmula de 5 piezas</h2>
+			<p>Escribe siempre en este orden. Cada pieza responde una pregunta que la IA no debería tener que adivinar:</p>
+			<div class="formula">
+				<div><b>01</b><span>Quién</span><small>Edad, ropa y un detalle que lo haga único.</small></div>
+				<div><b>02</b><span>Qué hace</span><small>Una acción a la vez: cómo empieza y cómo termina.</small></div>
+				<div><b>03</b><span>Dónde</span><small>El lugar y la hora del día.</small></div>
+				<div><b>04</b><span>Cámara</span><small>Qué tan cerca y cómo se mueve.</small></div>
+				<div><b>05</b><span>Luz y sonido</span><small>De dónde viene la luz y qué se escucha.</small></div>
+			</div>
+
+			<h2 id="antes-despues">Antes y después</h2>
+			<p>Mira la misma idea escrita de las dos formas:</p>
+			<div class="comparar">
+				<div class="toma mala"><span class="etiqueta"><b>✕</b> Pedir</span><p>Un hombre caminando en la ciudad de noche, cinematográfico, épico, 4K.</p></div>
+				<div class="toma buena"><span class="etiqueta"><b>✓</b> Dirigir</span><p>Hombre de 35 años, barba corta, gabardina gris mojada. Camina despacio hacia la cámara y se detiene bajo un aviso de neón. Calle angosta de Barranquilla, de noche, después de la lluvia. Plano medio, la cámara retrocede lento al mismo ritmo que él. Luz rosada del neón desde la izquierda, reflejos en el piso mojado. Se oyen gotas y un carro a lo lejos.</p></div>
+			</div>
+			<p>Fíjate que la segunda versión no tiene ni una palabra como «épico» o «cinematográfico». No hace falta: <strong>lo cinematográfico sale de los detalles, no de los adjetivos.</strong></p>
+
+			<h2 id="emocion">La emoción se muestra, no se nombra</h2>
+			<p>La IA no sabe dibujar «tristeza» o «tensión». Sí sabe dibujar lo que hace una persona triste o tensa. Cambia la emoción por una acción que se vea:</p>
+			<ul class="lista">
+				<li>En vez de «está nervioso»: <strong>se frota las manos y mira hacia la puerta.</strong></li>
+				<li>En vez de «está feliz»: <strong>se ríe y echa la cabeza hacia atrás.</strong></li>
+				<li>En vez de «momento tenso»: <strong>contiene la respiración; la cámara se acerca despacio.</strong></li>
+			</ul>
+
+			<h2 id="imagen">Si empiezas desde una imagen</h2>
+			<p>Cuando conviertes una foto en video, la foto ya dice quién es, dónde está y qué luz hay. Entonces tu prompt se concentra en <strong>lo que se mueve: la acción y la cámara.</strong> Muchas veces un prompt corto funciona mejor que uno largo.</p>
+			<div class="prompt"><button class="copiar" onclick="copiar(this)">COPIAR</button>La mujer gira la cabeza hacia la cámara y sonríe. <em>La cámara se acerca despacio</em> hasta un primer plano. El viento mueve su cabello.</div>
+
+			<h2 id="regla">La regla de oro: cambia una sola cosa</h2>
+			<p>Si el resultado no te gusta, no reescribas todo. Cambia <strong>una sola pieza</strong> de la fórmula y vuelve a generar. Así sabes qué funcionó, y no gastas créditos a ciegas.</p>
+			<div class="dice">
+				<img src="img/fredy-confundido.png" alt="El CEO">
+				<p>«Si cambias cinco cosas a la vez y queda bien, nunca vas a saber cuál fue. Y si queda mal, tampoco.»</p>
+			</div>
+
+			<h2 id="plantilla">Tu plantilla</h2>
+			<p>Cópiala, llena los espacios y úsala en cualquier herramienta de video:</p>
+			<div class="prompt"><button class="copiar" onclick="copiar(this)">COPIAR</button><em>[Quién]</em> ________, con ________.
+<em>[Qué hace]</em> Empieza ________ y termina ________.
+<em>[Dónde]</em> En ________, a la hora ________.
+<em>[Cámara]</em> Plano ________, la cámara ________.
+<em>[Luz y sonido]</em> Luz ________ desde ________. Se escucha ________.</div>
+
+			<div class="ejercicio">
+				<span class="etiqueta"><b>●</b> Tu tarea</span>
+				<h3>Dirige tu primer plano</h3>
+				<p>Piensa en una escena de 5 segundos de tu propio negocio o de tu ciudad. Escríbela primero «pidiendo» y después «dirigiendo» con la plantilla. Genera las dos y compáralas. Guarda la mejor: la vas a usar en la Escena 4 para tu primer Reel.</p>
+			</div>
+
+			<h2 id="revisa">Antes de darle «generar»</h2>
+			<ul class="lista">
+				<li>¿Alguien que no conoce tu idea podría dibujarla con lo que escribiste?</li>
+				<li>¿Hay una sola acción principal, con inicio y final?</li>
+				<li>¿Dijiste qué tan cerca está la cámara y cómo se mueve?</li>
+				<li>¿Hay una fuente de luz con dirección?</li>
+				<li>¿Quitaste palabras como «épico», «increíble» o «cinematográfico»?</li>
+			</ul>
+
+			<div class="navegar">
+				<a class="boton boton-linea" href="t1-e1-como-funciona.html">◀ Escena 1</a>
+				<a class="boton boton-rosa" href="t1-e3-habla-como-director.html">Escena 3: Habla como director ▶</a>
+			</div>
+		</article>
+
+		<aside class="indice">
+			<span class="etiqueta">En esta escena</span>
+			<ol>
+				<li><a href="#por-que" class="activa">Por qué se ve «de IA»</a></li>
+				<li><a href="#formula">La fórmula de 5 piezas</a></li>
+				<li><a href="#antes-despues">Antes y después</a></li>
+				<li><a href="#emocion">La emoción se muestra</a></li>
+				<li><a href="#imagen">Desde una imagen</a></li>
+				<li><a href="#regla">Cambia una sola cosa</a></li>
+				<li><a href="#plantilla">Tu plantilla</a></li>
+				<li><a href="#revisa">Antes de generar</a></li>
+			</ol>
+		</aside>
+	</div>
+</main>
+
+<footer class="aviso envoltura">Cine sin Cámara · Fredy Plaza Lara · @fredy.plazalara</footer>
+
+<script>
+function copiar(b) {
+	const t = b.parentElement.innerText.replace(/^COPIAR\s*/, '').replace(/^¡COPIADO!\s*/, '');
+	const listo = () => { b.textContent = '¡COPIADO!'; setTimeout(() => b.textContent = 'COPIAR', 1600); };
+	const aMano = () => { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); listo(); } catch (e) { b.textContent = 'MANTÉN PRESIONADO PARA COPIAR'; } a.remove(); };
+	if (navigator.clipboard) navigator.clipboard.writeText(t).then(listo, aMano); else aMano();
+}
+const enlaces = [...document.querySelectorAll('.indice a')];
+const ob = new IntersectionObserver((es) => es.forEach((e) => {
+	if (e.isIntersecting) enlaces.forEach((a) => a.classList.toggle('activa', a.getAttribute('href') === '#' + e.target.id));
+}), {rootMargin: '-30% 0px -60% 0px'});
+document.querySelectorAll('article h2[id]').forEach((h) => ob.observe(h));
+</script>
+</body>
+</html>
